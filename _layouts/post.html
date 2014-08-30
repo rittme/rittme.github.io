@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<section class="nice-box post">
+  <img class="nice-image" src="{{page.image}}" alt="">
+  <h2 class="nice-header">
+    {{ page.title }}
+    <small>{{ page.date | date: "%b %-d, %Y" }}</small>
+  </h2>
+  <div class="nice-body">
+    {{ content }}
+  </div>
+</section>

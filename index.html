@@ -1,0 +1,20 @@
+---
+layout: default
+---
+{% for post in site.posts %}
+  <section class="nice-box">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+      <img class="nice-image" src="{{post.image}}" alt="">
+    </a>
+    <h2 class="nice-header">
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <small>{{ post.date | date: "%b %-d, %Y" }}</small>
+    </h2> 
+    <div class="nice-body">
+      {{ post.excerpt }}
+    </div>
+    <div class="nice-footer">
+      <a href="{{ post.url | prepend: site.baseurl }}" title="Read more...">+</a>
+    </div>
+  </section>
+{% endfor %}
