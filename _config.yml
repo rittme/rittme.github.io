@@ -2,9 +2,9 @@
 title: Rittme.com
 email: bernardo@rittme.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hello there, this is my personal website, where I talk about my work
+  and try to write about some interesting stuff. Please, take a look and
+  send me a line if you like it.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://rittme.com"
 twitter_username: rittmeyer

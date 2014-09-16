@@ -414,7 +414,7 @@ footer {
 
   & > label {
     display:block;
-    margin:5px 0 0;
+    margin:8px 0 0;
   }
 
   & > input, & > textarea {
@@ -429,6 +429,7 @@ footer {
     background: #2980b9;
     color: #FFFFFF;
     border:none;
+    margin: 10px 0;
     &:hover {
       background: #3498db;
     }

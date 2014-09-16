@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 
-<form class="contact-form" action="http://webmailer.ritt.me" method="post">
+<form class="contact-form" id="form" action="http://webmailer.ritt.me" method="post">
   <label for="name">
     Name
   </label>
@@ -20,12 +20,45 @@ permalink: /contact/
   <div class="honey">
     <input type="text" name="honey" id="honey">
   </div>
-  <input type="submit" value="Submit">
+  <input type="submit" id="submit" value="Submit">
 </form>
 <script type="text/javascript">
+function FormManager (elt) {
+  var form = elt;
+  var fData = {};
+  fData['name'] = document.getElementById('name');
+  fData['email'] = document.getElementById('email');
+  fData['message'] = document.getElementById('message');
+  fData['honey'] = document.getElementById('honey');
 
-let formManager = {
-  
+  var submit = document.getElementById('submit');
+
+  var data;
+
+  form.addEventListener('submit', function(evt){
+    evt.preventDefault();
+    Object.keys(fData).forEach(function (val) { 
+      data += val + "=" + fData[val];
+    });
+
+    var xhr = new XMLHttpRequest();
+    xhr.open("POST", form.action, true);
+    xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+    xhr.onload = function (e) {
+      if (xhr.readyState === 4) {
+        if (xhr.status === 200) {
+          console.log(xhr.responseText);
+        } else {
+          console.error(xhr.statusText);
+        }
+      }
+    };
+    xhr.onerror = function (e) {
+      console.error(xhr.statusText);
+    };
+    xhr.send(data);
+  }, true);
 }
 
+var manager = new FormManager(document.getElementById('form'));
 </script>
