@@ -6,3 +6,4 @@ categories: mozilla firefox high-dpi
 image: /images/posts/high-dpi-favicons.png
 ---
 
+It's time I 
