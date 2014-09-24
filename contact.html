@@ -30,17 +30,15 @@ function FormManager (elt) {
   fData['email'] = document.getElementById('email');
   fData['message'] = document.getElementById('message');
   fData['honey'] = document.getElementById('honey');
-
   var submit = document.getElementById('submit');
 
-  var data;
+  var data = "";
 
   form.addEventListener('submit', function(evt){
     evt.preventDefault();
     Object.keys(fData).forEach(function (val) { 
-      data += val + "=" + fData[val];
+      data += val + "=" + fData[val].value + "&";
     });
-
     var xhr = new XMLHttpRequest();
     xhr.open("POST", form.action, true);
     xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");

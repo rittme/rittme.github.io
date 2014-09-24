@@ -5,7 +5,7 @@ date:   2014-09-09 01:30:00
 categories: first random
 image: /images/posts/hello-world.jpg
 ---
-Hello there, welcome to my new website. I made it more like a blog this time. I'll try to adventure myself writing some interesting and hopefully useful stuff for you. With some luck it will be fun to read too.
+Hello there, welcome to my new web site. I made it more like a blog this time. I'll try to adventure myself into writing some interesting and hopefully useful stuff for you. With some luck it will be fun to read too.
 
 I'll try to write somewhat frequently in this new space. I plan to talk mainly about web development, Firefox features and tips, and other related things.
 
