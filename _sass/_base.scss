@@ -173,10 +173,11 @@ textarea {
       display: inline;
     }
   }
-  @media (min-height: 560px) {
-    .sidebar {
-      position: fixed;
-    }
+}
+
+@media (min-height: 560px) {
+  .sidebar {
+    position: fixed;
   }
 }
 

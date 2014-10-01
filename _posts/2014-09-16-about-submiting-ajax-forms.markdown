@@ -3,7 +3,7 @@ layout: post
 title:  "About Submiting Assynchronous Forms"
 date:   2014-09-16 20:00:00
 categories: webdev javascript firefox ajax
-image: /images/posts/form-submission.png
+image: /images/posts/ajax-submit.jpg
 ---
 
 We all love this AJAX thing nowadays. Submiting your form assynchronously is closer to be the rule than the exception. The possibilities are only limited by our creativity. But using these forms I constantly see a disregard to current standards.
