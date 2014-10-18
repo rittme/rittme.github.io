@@ -175,7 +175,7 @@ textarea {
   }
 }
 
-@media (min-height: 560px) {
+@media (min-height: 560px) and (min-width: 940px) {
   .sidebar {
     position: fixed;
   }
