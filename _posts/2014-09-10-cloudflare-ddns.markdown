@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Dynamic DNS using CloudFlare"
-date:   2014-09-10 03:00:00
+date:   2014-09-15 03:00:00
 categories: network raspberry-pi
-image: /images/posts/cloudflare.png
+image: /images/posts/cloudflare2x.png
 ---
 
 Some months ago I finally got my hands at a Raspberry Pi. Much like any other descent person I started trying all sorts of fun and useless projects on it. Finally I settled down with a boring, but useful, XBMC media server.

@@ -3,7 +3,7 @@ layout: post
 title:  "Hello World!"
 date:   2014-09-09 01:30:00
 categories: first random
-image: /images/posts/hello-world.jpg
+image: /images/posts/hello-world2x.jpg
 ---
 Hello there, welcome to my new web site. I made it more like a blog this time. I'll try to adventure myself into writing some interesting and hopefully useful stuff for you. With some luck it will be fun to read too.
 
