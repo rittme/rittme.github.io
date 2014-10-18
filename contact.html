@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 
-<form class="contact-form" id="form" action="http://webmailer.ritt.me" method="post">
+<form class="contact-form" id="form" action="http://webmailer.rittme.com" method="post">
   <label for="name">
     Name
   </label>
@@ -46,7 +46,7 @@ function FormManager (elt) {
     Object.keys(fData).forEach(function (val) {
       data += val + "=" + fData[val].value + "&";
     });
-    var xhr = new XMLHttpRequest();
+    var xhr = new XMLHttp Request();
     xhr.open("POST", form.action, true);
     xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
     xhr.onload = function (e) {
