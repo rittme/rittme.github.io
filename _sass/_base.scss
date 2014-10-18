@@ -429,6 +429,7 @@ footer {
   max-width: 400px;
   padding:10px;
   margin:0 auto;
+  transition: 1s opacity;
 
   & > label {
     display:block;
@@ -455,6 +456,22 @@ footer {
 
   .honey {
     display: none;
+  }
+
+  &.sending {
+    opacity: 0.3;
+  }
+
+  .confirmation {
+    margin-left:10px;
+    opacity:0;
+    transition: 0.5s opacity;
+    &.display {
+      opacity:0.8;
+    }
+    &.error {
+      color:#aa0000;
+    }
   }
 }
 
