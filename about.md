@@ -9,7 +9,7 @@ I'm passionate writing beautiful and effective Javascript code for fluid user in
 
 My passions are __open-source__ software and fighting for a __free and open web__ for everyone.
 
-[Download](/resources/resume.pdf) my resume.
+[Download](/resume.pdf) my resume.
 
 ###Work Experience###
 In the summer of 2014 I worked as an Intern at the Firefox Engineering Team, implementing support for high DPI displays (Retina) and some other front-end awesomeness.
