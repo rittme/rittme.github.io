@@ -46,7 +46,7 @@ function FormManager (elt) {
     Object.keys(fData).forEach(function (val) {
       data += val + "=" + fData[val].value + "&";
     });
-    var xhr = new XMLHttp Request();
+    var xhr = new XMLHttpRequest();
     xhr.open("POST", form.action, true);
     xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
     xhr.onload = function (e) {
