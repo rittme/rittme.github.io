@@ -15,3 +15,6 @@ portrait: /images/me.png
 markdown: kramdown
 kramdown:
   parse_block_html: true
+
+gems:
+  - jekyll-sitemap
