@@ -45,7 +45,9 @@ This internship was for sure a life changing experience. Getting to work with pe
 
 But I can't say it's the end. Mozilla having this awesome open-source projects, I'll keep being a volunteer contributor to these projects that are so important for the web environment. I support you to do the same. Contributing to open-source software make you learn a lot about programming, make you part of an amazing community and helps some really important causes.
 
-I'll finish by leaving a link to a video of my [internship presentation][presentation].
+I'll finish by leaving you my internship presentation video.
+
+<iframe src="https://air.mozilla.org/shiny-icons-the-road-to-high-dpi-favicons-support/video/" width="640" height="380" frameborder="0" allowfullscreen></iframe>
 
 I can say without doubt that Mozilla offers one of the most fun and valuable internships on the tech industry.
 
