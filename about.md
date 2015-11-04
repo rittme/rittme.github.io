@@ -15,7 +15,7 @@ In the summers of 2014 and 2015 I worked as an Intern at the Firefox Engineering
 
 In 2015 I worked at the password manager team, building better user interfaces. Take a look at [this blog post]({% post_url 2015-09-28-firefox-password-manager-intro %}) where I write about what I did.
 
-In 2014 I implemented [support for high DPI displays (Retina) in favicons]({% post_url 2014-09-14-mozilla-internship %}) and some other front-end awesomeness.
+In 2014 I implemented [support for high DPI displays (Retina) in favicons]({% post_url 2014-09-20-mozilla-internship %}) and some other front-end awesomeness.
 
 For 10 months in 2012/13 I worked for [École Française de Comptabilité](http://efcformation.com/), the leader in financial distance education in France. In charge of redeveloping the complete web environment, I managed to __increase the ROI of the main web site by more than 120%__.
 
