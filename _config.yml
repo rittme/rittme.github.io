@@ -10,6 +10,7 @@ url: "http://rittme.com"
 twitter_username: rittmeyer
 github_username:  rittme
 portrait: /images/me.png
+exclude: [vendor]
 
 # Build settings
 markdown: kramdown
