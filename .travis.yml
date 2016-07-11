@@ -3,7 +3,7 @@ rvm:
 - 2.1
 
 install: gem install jekyll html-proofer github-pages
-script: "bundle exec jekyll build && bundle exec htmlproof ./_site --disable-external"
+script: "bundle exec jekyll build && bundle exec htmlproofer ./_site --disable-external"
 
 env:
   global:
