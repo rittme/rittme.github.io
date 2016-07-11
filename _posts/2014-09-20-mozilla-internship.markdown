@@ -12,7 +12,7 @@ Let's start by explaining this a bit better. During the summer of 2014 I was an 
 
 I would love to share this experience with you, because I feel the need to spread the word about how fun and rewarding an internship like this one can be.
 
-###The City###
+### The City ###
 ![Golden Gate Bridge](/images/in-content/golden-gate.jpg)
 
 The Bay Area is where you want to be if you are a developer. I know, you've heard it a hundred times, but I really have to say it again. This place breathes technology and innovation.  I couldn’t expect the effect it has on your everyday live. Being part of a community of people that share the same motivations and interests. You can find daily tech meetups about pretty much any subject you would want.
@@ -21,7 +21,7 @@ It's not anywhere you can just walk down the street and pass by companies like G
 
 San Francisco is also a really nice city in other aspects. It has beautiful views, awesome food and it's full of friendly people. Working at an office just by the bay with an amazing view probably helps in admiring what the city has to offer. But be prepared for some chilly winds even during the summer and the famous city fog, that can take away the most sunny day in 5 minutes.
 
-###The Work###
+### The Work ###
 ![My desk](/images/in-content/desk-panda.jpg)
 
 A lot earlier than actually getting there, I knew that working at Mozilla would be really interesting. They are one of the main reasons the web is as awesome as it is nowadays. Through Firefox and Javascript, Mozilla allows people to share their thoughts and make the web this open and democratic environment that is changing the world faster than we can keep up. All that mentioning all the projects like Webmakers or the Open Source Support Program, that are pushing people to be more and more an active part of the web.
@@ -38,7 +38,7 @@ The pay is on par with the other big tech names, plane tickets and housing are p
 
 Oh, and have I mentioned that I had a work week in Canada? During an entire week, members of my team from all around the globe gathered at the Toronto Office to have discussions, meetings and work together. It was a really good experience and really nice to get to know everyone from the team personally.
 
-###The not-so-end###
+### The not-so-end ###
 ![Pony rides](/images/in-content/pony-rides.jpg)
 
 This internship was for sure a life changing experience. Getting to work with people so smart is really fruitful and with all the fun that goes together time goes fast. I made friendships that I hope I'll carry for life.
