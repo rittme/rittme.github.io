@@ -41,7 +41,10 @@ We ended up with a nice interface in the context menu, which can be useful in ma
 ## Presentation ##
 If you want to know more about what I did, take a look at my summer internship presentation bellow.
 
-<iframe class="center-image" src="https://air.mozilla.org/bernardo_rittmeyer/video/" width="896" height="524" frameborder="0" allowfullscreen></iframe>
+<iframe class="center-image" src="/mozilla-2015/load.html" width="760" height="444" frameborder="0" allowfullscreen></iframe> 
+
+Edit: Mozilla seems to have lost the presentation video, so I replaced it with the slides.
+
 {::comment}
 ## The team ##
 In this post I wanted to cover mostly the features I worked on. Check my post about __the Password Manager Team__ to have a full view of the project.

@@ -1,20 +1,25 @@
 ---
 layout: default
 ---
-{% for post in site.posts %}
-  <section class="nice-box">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-      <img class="nice-image" src="{{post.image}}" alt="">
-    </a>
-    <h2 class="nice-header">
-      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      <small>{{ post.date | date: "%b %-d, %Y" }}</small>
-    </h2> 
-    <div class="nice-body">
-      {{ post.excerpt }}
-    </div>
-    <div class="nice-footer">
-      <a href="{{ post.url | prepend: site.baseurl }}" title="Read more...">+</a>
-    </div>
-  </section>
-{% endfor %}
+<article class="content">
+  <p class="intro">
+    Hi, I'm Bernardo Rittmeyer. I'm a software Engineer. <br>
+    Here you can find some of my thoughts on software and life.
+  </p>
+  {% for post in site.posts %}
+    <section class="entry">
+      <a href="{{ post.url | prepend: site.baseurl }}">
+          <!-- <img class="nice-image" src="{{post.image}}" alt=""> -->
+          <h2 class="entry-title">
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2> 
+        <div class="entry-content">
+          {{ post.excerpt }}
+        </div>
+        <div class="entry-date">
+          {{ post.date | date: "%b %-d, %Y" }}
+        </div>
+        </a>
+    </section>
+  {% endfor %}
+</article>

@@ -1,20 +1,17 @@
+---
+name: 'home'
+---
 <!DOCTYPE html>
 <html>
 
   {% include head.html %}
 
   <body>
-
+    {% assign current = page.url | downcase | split: '/' %}
     {% include header.html %}
-
-    {% include sidebar.html %}
-
-    <article class="content">
-        {{ content }}
-    </article>
-
-    {% include footer.html %}
-    {% include scripts.html %}
+    
+    {{ content }}
   </body>
 
+  {% include footer.html %}
 </html>

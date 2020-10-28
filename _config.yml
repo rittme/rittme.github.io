@@ -2,14 +2,14 @@
 title: Rittme.com
 email: bernardo@rittme.com
 description: > # this means to ignore newlines until "baseurl:"
-  Hello there, this is my personal website, where I talk about my work
-  and try to write about some interesting stuff. Please, take a look and
-  send me a line if you like it.
+  Bernardo Rittmeyer personal blog. Here you can find some of my thoughts on software and life.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://rittme.com"
+url: "https://www.rittme.com"
 twitter_username: rittmeyer
 github_username:  rittme
-portrait: /images/me.png
+linkedin_username: bernardorittmeyer
+
+google_analytics: UA-12517401-1
 exclude: [vendor]
 
 # Build settings
@@ -17,5 +17,18 @@ markdown: kramdown
 kramdown:
   parse_block_html: true
 
-gems:
+plugins:
+  - jekyll-feed
   - jekyll-sitemap
+
+defaults:
+  -
+    scope:
+      path: "mozilla-2014"
+    values:
+      sitemap: false
+  -
+    scope:
+      path: "mozilla-2015"
+    values:
+      sitemap: false

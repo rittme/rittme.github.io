@@ -3,36 +3,35 @@
 ---
 @charset "utf-8";
 
-
-
-// Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+// Variables
+$base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+//$base-font-family: Helvetica, Arial, sans-serif;
+//$base-font-family: Consolas, "Times New Roman";
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     30px;
-
-$text-color:       #111;
+$text-color:       #FFFFFF;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$grey-color:       rgb(32,37,41);
+$grey-color-light: rgb(38,43,47);
+$grey-color-dark:  rgb(32,37,41);
+$grey-color-lightest: rgb(158,151,153);
 
 $on-palm:          600px;
 $on-laptop:        800px;
 
+$main-color:        rgb(255,186,0);
+$main-color-lighter:rgb(255, 211, 89);
 
+// Width of the content area
+$content-width:    800px;
 
-// Using media queries with like this:
-// @include media-query($palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
+$on-palm:          600px;
+$on-laptop:        800px;
+
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
@@ -43,8 +42,7 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "normalize",
-        "base",
-        "layout",
-        "syntax-highlighting"
+    "normalize",
+    "base",
+    "syntax-highlighting"
 ;

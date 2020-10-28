@@ -1,14 +1,15 @@
 ---
 layout: default
 ---
-<section class="nice-box post">
-  <img class="nice-image" src="{{page.image}}" alt="">
-  <h2 class="nice-header">
-    {{ page.title }}
-    <small>{{ page.date | date: "%b %-d, %Y" }}</small>
-  </h2>
-  <div class="nice-body">
-    {{ content }}
-    {% include share.html %}
-  </div>
-</section>
+<article class="post">
+  <!-- <img class="post-image" src="{{page.image}}" alt=""> -->
+  <section class="content">
+    <div class="post-date">{{ page.date | date: "%b %-d, %Y" }}</div>
+    <h2 class="post-header">
+      {{ page.title }}
+    </h2>
+    <div class="post-body">
+      {{ content }}
+    </div>
+  </section>
+</article>
