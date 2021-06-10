@@ -1,10 +1,12 @@
 <header class="header">
-  <h1><a href="{{ site.baseurl }}/">Rittme</a></h1>
+  <a href="{{ site.baseurl }}/">
+    {%- if page.name == "index.html" -%}
+    <img src="{{ '/images/rittme.webp' | relative_url }}" alt="Me" class="main-image">
+    {%- endif -%}
+    <h1>Rittme</h1>
+  </a>
   <nav>
     <ul class="navigation">
-      <!-- <li class="home-menu-item">
-                                    <a class="nav-blog" href="/">Home</a>
-                                  </li> -->
       {% for page in site.pages %}
       {% if page.title %}
       <li>
